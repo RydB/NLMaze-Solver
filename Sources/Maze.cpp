@@ -327,7 +327,7 @@ void Maze::BFS()
                     t.adj[i].dest->visited = true;
                     
 
-                    t.adj[i].dest->prev = new node(t);
+                    t.adj[i].dest->prev = new node(t); //Memory leak.  Hate.
                     
                     t.adj[i].used = true;
 
