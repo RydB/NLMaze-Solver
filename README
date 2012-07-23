@@ -2,3 +2,7 @@ No Lefts Maze Solver
 
 This program takes a text file as input representing a maze and outputs a solution
 maze (if solvable) to standard output.
+
+Note some algorithms are either commented out or unused.  Experimentation was done
+using a variety of graph-theory based algorithms during the construction of this 
+program, but ultimately only breadth first search and Djisktras were used.
