@@ -1,0 +1,4 @@
+No Lefts Maze Solver
+
+This program takes a text file as input representing a maze and outputs a solution
+maze (if solvable) to standard output.
